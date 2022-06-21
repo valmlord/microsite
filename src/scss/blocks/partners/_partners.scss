@@ -1,0 +1,22 @@
+.partners {
+    background-color: $bg1;
+    &__title {
+        font-family: "BrownTT", sans-serif;
+        font-size: 48px;
+        line-height: 54px;
+        font-weight: 300;
+        text-align: center;
+        color: $dark;
+    }
+    &__subtitle {
+        font-family: "BrownTT", sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 300;
+        text-align: center;
+        color: $dark;
+        width: 830px;
+        margin: 32px auto;
+    }
+
+}
