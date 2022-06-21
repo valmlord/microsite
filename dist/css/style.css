@@ -47,7 +47,7 @@ a {
 
 .promo {
   padding-top: 128px;
-  background-image: url("../../img/promo/bg.png");
+  background: url("../../img/promo/bg.png");
   background-repeat: no-repeat;
   background-position: center;
   color: #ffffff;
