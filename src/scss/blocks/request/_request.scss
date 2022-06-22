@@ -1,7 +1,7 @@
 .request {
     background-color: $bg1;
 
-    &__title {
+    &-title {
         font-family: "BrownTT", sans-serif;
         font-size: 48px;
         line-height: 54px;
@@ -16,31 +16,31 @@
         justify-content: space-around;
         align-items: center;
         padding-bottom: 102px;
-
+        width: 1180px;
         &-reverse {
             display: flex;
             flex-direction: row-reverse;
         }
 
-        &__info {
+        &-info {
             max-width: 580px;
             display: flex;
             flex-direction: column;
 
-            &-heading {
+            &__heading {
                 font-family: "BrownTT", sans-serif;
                 font-weight: 500;
                 font-size: 18px;
                 line-height: 24px;
                 color: $dark;
 
-                &__link {
+                &-link {
                     text-decoration: underline;
                     color: $primary;
                 }
             }
 
-            &-description {
+            &__description {
                 margin-top: 24px;
                 font-size: 16px;
                 line-height: 24px;
@@ -48,7 +48,7 @@
                 color: $dark;
             }
 
-            &-list {
+            &__list {
                 font-size: 16px;
                 line-height: 24px;
                 font-weight: 500;
@@ -57,7 +57,7 @@
             }
         }
 
-        &__mockup {
+        &-mockup {
             width: 459px;
         }
     }

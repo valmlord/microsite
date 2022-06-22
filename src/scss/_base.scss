@@ -15,9 +15,9 @@ a {
 }
 
 .wrapper {
-    display: block;
-    margin: 0 auto;
-    width: 1663px;
+    display: flex;
+    justify-content: center;
+    margin: 0 130px;
     background-color: #ffffff;
     padding-top: 58px;
 }
