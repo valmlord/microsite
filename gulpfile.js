@@ -47,18 +47,21 @@ gulp.task("build-js", () => {
 });
 
 gulp.task("build-sass", () => {
-    return gulp.src("./src/scss/**/*.scss")
+    return gulp.src("./src/assets/scss/**/*.scss")
                 .pipe(sass().on('error', sass.logError))
-                .pipe(gulp.dest(dist + '/css'))
+                .pipe(gulp.dest(dist + '/assets/css'))
                 .pipe(browsersync.stream());
 });
 
 gulp.task("copy-assets", () => {
-    gulp.src("./src/icons/**/*.*")
-        .pipe(gulp.dest(dist + "/icons"));
+    gulp.src("./src/assets/fonts/**/*.*")
+        .pipe(gulp.dest(dist + "/assets/fonts"));
 
-    return gulp.src("./src/img/**/*.*")
-                .pipe(gulp.dest(dist + "/img"))
+    gulp.src("./src/assets/icons/**/*.*")
+        .pipe(gulp.dest(dist + "/assets/icons"));
+
+    return gulp.src("./src/assets/img/**/*.*")
+                .pipe(gulp.dest(dist + "/assets/img"))
                 .pipe(browsersync.stream());
 });
 
@@ -70,10 +73,11 @@ gulp.task("watch", () => {
     });
 
     gulp.watch("./src/index.html", gulp.parallel("copy-html"));
-    gulp.watch("./src/icons/**/*.*", gulp.parallel("copy-assets"));
-    gulp.watch("./src/img/**/*.*", gulp.parallel("copy-assets"));
-    gulp.watch("./src/scss/**/*.scss", gulp.parallel("build-sass"));
-    gulp.watch("./src/js/**/*.js", gulp.parallel("build-js"));
+    gulp.watch("./src/assets/fonts/**/*.*", gulp.parallel("copy-assets"));
+    gulp.watch("./src/assets/icons/**/*.*", gulp.parallel("copy-assets"));
+    gulp.watch("./src/assets/img/**/*.*", gulp.parallel("copy-assets"));
+    gulp.watch("./src/assets/scss/**/*.scss", gulp.parallel("build-sass"));
+    gulp.watch("./src/assets/js/**/*.js", gulp.parallel("build-js"));
 });
 
 gulp.task("build", gulp.parallel("copy-html", "copy-assets", "build-sass", "build-js"));
@@ -113,7 +117,7 @@ gulp.task("prod", () => {
         }))
         .pipe(gulp.dest(dist + '/js'));
     
-    return gulp.src("./src/scss/style.scss")
+    return gulp.src("./src/assets/scss/style.scss")
         .pipe(sass().on('error', sass.logError))
         .pipe(postcss([autoprefixer()]))
         .pipe(cleanCSS())

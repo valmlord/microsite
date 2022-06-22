@@ -14038,8 +14038,8 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()('.partners-slider').slick({
   slideToScroll: 3,
   centerMode: true,
   arrows: true,
-  prevArrow: '<button class="prev-slide"><img src="./icons/partners/arrow-left.png" alt="nav-arrow-left"></button>',
-  nextArrow: '<button class="next-slide"><img src="./icons/partners/arrow-right.png" alt="nav-arrow-right"></button>',
+  prevArrow: '<button class="prev-slide"><img src="./assets/icons/partners/arrow-left.png" alt="nav-arrow-left"></button>',
+  nextArrow: '<button class="next-slide"><img src="./assets/icons/partners/arrow-right.png" alt="nav-arrow-right"></button>',
   responsive: [{
     breakpoint: 1180,
     settings: {
