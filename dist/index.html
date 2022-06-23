@@ -9,9 +9,11 @@
 </head>
 
 <body>
+
     <header class="header">
         <div class="container">
-            <a class="header-logo" href="#"><img class="header-logo__img" src="assets/img/header/logo.svg" alt="logo"></a>
+            <a class="header-logo" href="#"><img class="header-logo__img" src="assets/img/header/logo.svg"
+                    alt="logo"></a>
         </div>
     </header>
 
@@ -116,7 +118,6 @@
                                 most stringent U.S. government security and compliance requirements. Take a look at how
                                 Everlaw is setting the bar in cloud security to protect your data with the highest cloud
                                 security standards.
-
                             </p>
                             <button class="btn btn-request">Access It Now</button>
                         </div>
@@ -134,26 +135,32 @@
                 <h3 class="partners-subtitle">Designed with government agencies in mind, Everlaw is FedRAMP authorized,
                     operates on AWS GovCloud (US), and is an AWS Public Sector Partner, protecting your data with the
                     highest cloud security standards. </h3>
-                    <div class="partners-slider">
-                        <div class="partners-slider__item">
-                            <img src="assets/img/partners/Compairing_Card_1.png" alt="logo" class="partners-slider__item-img">
-                        </div>
-                        <div class="partners-slider__item">
-                            <img src="assets/img/partners/Compairing_Card_2.png" alt="logo" class="partners-slider__item-img">
-                        </div>
-                        <div class="partners-slider__item">
-                            <img src="assets/img/partners/Compairing_Card_3.png" alt="logo" class="partners-slider__item-img">
-                        </div>
-                        <div class="partners-slider__item">
-                            <img src="assets/img/partners/Compairing_Card_4.png" alt="logo" class="partners-slider__item-img">
-                        </div>
-                        <div class="partners-slider__item">
-                            <img src="assets/img/partners/Compairing_Card_5.png" alt="logo" class="partners-slider__item-img">
-                        </div>
-                        <div class="partners-slider__item">
-                            <img src="assets/img/partners/Compairing_Card_6.png" alt="logo" class="partners-slider__item-img">
-                        </div>
+                <div class="partners-slider">
+                    <div class="partners-slider__item">
+                        <img src="assets/img/partners/Compairing_Card_1.png" alt="logo"
+                            class="partners-slider__item-img">
                     </div>
+                    <div class="partners-slider__item">
+                        <img src="assets/img/partners/Compairing_Card_2.png" alt="logo"
+                            class="partners-slider__item-img">
+                    </div>
+                    <div class="partners-slider__item">
+                        <img src="assets/img/partners/Compairing_Card_3.png" alt="logo"
+                            class="partners-slider__item-img">
+                    </div>
+                    <div class="partners-slider__item">
+                        <img src="assets/img/partners/Compairing_Card_4.png" alt="logo"
+                            class="partners-slider__item-img">
+                    </div>
+                    <div class="partners-slider__item">
+                        <img src="assets/img/partners/Compairing_Card_5.png" alt="logo"
+                            class="partners-slider__item-img">
+                    </div>
+                    <div class="partners-slider__item">
+                        <img src="assets/img/partners/Compairing_Card_6.png" alt="logo"
+                            class="partners-slider__item-img">
+                    </div>
+                </div>
 
                 <div class="partners-slider__nav"></div>
             </div>
@@ -277,9 +284,96 @@
         </div>
     </footer>
 
-    <!-- <div class="modal">
+    <!-- MODALS WINDOWS -->
+    <!-- MODALS WINDOWS -->
+    <!-- MODALS WINDOWS -->
+    <!-- MODALS WINDOWS -->
 
-    </div> -->
+    <div class="modal" id="popup">
+        <div class="modal-content" id="popup-first">
+            <span class="modal-content__close">
+                <img alt="close" src="assets/icons/modal/cross.png" />
+            </span>
+
+            <h6 class="modal-content__title">Complete the form to access the resources</h6>
+
+            <form action="#" class="modal-content__form form">
+                <input class="form-name" id="first-name" name="first_name" placeholder="First name*" required="" type="text" />
+                <input class="form-surname" id="last-name" name="last_name" placeholder="Last name*" required="" type="text" />
+                <input class="form-job" id="job" name="job_title" placeholder="Job title*" required="" type="text" />
+                <input class="form-email" id="email" name="email" placeholder="Email address*" required="" type="email" />
+                <input class="form-phone" id="phone" name="phone" placeholder="Phone*" required="" type="text" />
+                <input class="form-company" id="company" name="company" placeholder="Company name*" required="" type="text" />
+
+                <div class="form-check">
+                    <input class="form-check__input acknowledge" id="acknowledge" name="acknowledge" type="checkbox" value="acknowledge" />
+                    <label class="form-check__label" for="acknowledge"> 
+                        By entering your information, you acknowledge that you have reviewed our
+                        <a href="https://www.everlaw.com/privacy-notice/"
+                            style="text-decoration: underline; color: #313330;" target="_blank">Privacy Policy</a>.
+                    </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check__input confirm" id="confirm" name="confirm" type="checkbox" value="confirm" />
+                    <label class="form-check__label" for="confirm"> 
+                        I confirm that I have read and agreed to ITCurated's
+                        <a href="https://itcurated.com/privacy-policy/"
+                            style="text-decoration: underline; color: #313330;" target="_blank">Privacy Policy
+                        </a>. In addition, I understand that my personal information will be shared with Everlaw as the sponsor of
+                        this resource, so they can contact me directly about their products or services. Please refer to the
+                        privacy policies of Everlaw for more details on how your information will be used by them.
+                    </label>
+                </div>
+
+                <div class="text-center">
+                    <input class="btn btn-modal__next" id="send" type="button" value="Get Access" />
+                </div>
+
+                <span class="form-pages">1 / 2</span>
+            </form>
+        </div>
+
+        <div class="modal-content" id="popup-second" style="display: none;">
+            <span class="modal-content__close">
+                <img alt="close" src="assets/icons/modal/cross.png" />
+            </span>
+
+            <h6 class="modal-content__title">Which resource would you like to get started with?</h6>
+
+            <div class="modal-assets">
+                <div class="modal-asset">
+                    <img class="modal-asset__img" alt="asset" src="assets/img/modal/asset-1.png"/>
+                    <p>9 Steps to Responding to FOIA / Public Record Requests</p>
+                    <a class="btn btn-asset" download=""
+                        href="#" type="button">Get Access</a>
+                </div>
+
+                <div class="modal-asset">
+                    <img class="modal-asset__img" alt="asset" src="assets/img/modal/asset-2.png"/>
+                    <p>R1 Public University Shortens Response Times for FOIA Requests</p>
+                    <a class="btn btn-asset" download=""
+                        href="#" type="button">Get Access</a>
+                </div>
+
+                <div class="modal-asset">
+                    <img class="modal-asset__img" alt="asset" src="assets/img/modal/asset-3.png"/>
+                    <p>Turning to Tech: How to Ease the Burden of Responding to Public Records and FOIA Requests</p>
+                    <a class="btn btn-asset" download=""
+                        href="#" type="button">Get Access</a>
+                </div>
+
+                <div class="modal-asset">
+                    <img class="modal-asset__img" alt="asset" src="assets/img/modal/asset-4.png"/>
+                    <p>Setting the Bar in Cloud Security</p>
+                    <a class="btn btn-asset" download=""
+                        href="#" type="button">Get Access</a>
+                </div>
+            </div>
+
+            <span class="form-pages">2 / 2</span>
+        </div>
+    </div>
 
     <script src="js/script.js"></script>
 </body>

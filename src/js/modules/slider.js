@@ -1,7 +1,6 @@
 import $ from 'jquery';
 import 'slick-carousel';
 
-
 $('.partners-slider').slick({
   variableWidth: true,
   infinite: true,
