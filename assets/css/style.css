@@ -251,6 +251,12 @@ a {
 .btn-request {
   margin-top: 36px;
 }
+.btn-asset {
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  line-height: 38px;
+}
 
 .partners {
   background-color: #2B2E31;
@@ -447,4 +453,103 @@ a {
   font-family: "Inter", sans-serif;
   font-size: 16px;
   line-height: 24px;
+}
+
+.modal {
+  display: flex;
+  justify-content: center;
+}
+.modal-content {
+  width: 500px;
+  background: white;
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.8);
+  -moz-box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.8);
+  box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.8);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.modal-content--first {
+  width: 500px;
+}
+.modal-content--second {
+  width: 802px;
+}
+.modal-content__close {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  top: -2px;
+  right: 57px;
+}
+.modal-content__title {
+  padding-top: 36px;
+  font-size: 24px;
+  line-height: 32px;
+  color: #313330;
+  text-align: center;
+}
+.modal-content__form {
+  display: flex;
+  flex-direction: column;
+  padding: 44px 50px 24px 50px;
+}
+.modal-content .form-data {
+  border: none;
+  border-bottom: 1px solid #5F6368;
+  font-size: 16px;
+  line-height: 24px;
+  color: #313330;
+  font-weight: 500;
+  padding-bottom: 17px;
+  padding-top: 24px;
+}
+.modal-content .form-data:first-child {
+  padding-top: 0;
+}
+.modal-content .form-check {
+  margin-top: 24px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #313330;
+}
+.modal-content .form-submit {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}
+.modal-content .form-pages {
+  display: flex;
+  justify-content: center;
+  margin-top: 28px;
+}
+.modal-content .form-pages:last-child {
+  margin-top: 67px;
+  padding-bottom: 32px;
+}
+.modal-asset {
+  display: flex;
+  width: 700px;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 94px;
+}
+.modal-asset:first-child {
+  margin-top: 58px;
+}
+.modal-asset__img {
+  width: 100px;
+  height: 100px;
+}
+.modal-asset__descr {
+  width: 395px;
+  padding-left: 24px;
+  padding-right: 82px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #313330;
 }
