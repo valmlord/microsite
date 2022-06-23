@@ -1,0 +1,108 @@
+.modal {
+    display: flex;
+    justify-content: center;
+
+    &-content {
+        width: 500px;
+        background: white;
+        border-radius: 10px;
+        -webkit-box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.8);
+        -moz-box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.8);
+        box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.8);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        &--first {
+            width: 500px;
+        }
+        &--second {
+            width: 802px;
+        }
+
+        &__close {
+            position: absolute;
+            width: 22px;
+            height: 22px;
+            top: -2px;
+            right: 57px;
+        }
+
+        &__title {
+            padding-top: 36px;
+            font-size: 24px;
+            line-height: 32px;
+            color: $dark;
+            text-align: center;
+        }
+
+        &__form {
+            display: flex;
+            flex-direction: column;
+            padding: 44px 50px 24px 50px;
+        }
+
+        .form {
+            &-data {
+                border: none;
+                border-bottom: 1px solid #5F6368;
+                font-size: 16px;
+                line-height: 24px;
+                color: $dark;
+                font-weight: 500;
+                padding-bottom: 17px;
+                padding-top: 24px;
+                &:first-child {
+                    padding-top: 0;
+                }
+            }
+
+            &-check {
+                margin-top: 24px;
+                font-size: 16px;
+                line-height: 24px;
+                font-weight: 500;
+                color: $dark;
+            }
+
+            &-submit {
+                display: flex;
+                justify-content: center;
+                margin-top: 32px;
+            }
+            &-pages {
+                display: flex;
+                justify-content: center;
+                margin-top: 28px;
+                &:last-child {
+                    margin-top: 67px;
+                    padding-bottom: 32px;
+                }
+            }
+        }
+    }
+
+    &-asset {
+        display: flex;
+        width: 700px;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 94px;
+        &:first-child {
+            margin-top: 58px;
+        }
+        &__img {
+            width: 100px;
+            height: 100px;
+        }
+        &__descr {
+            width: 395px;
+            padding-left: 24px;
+            padding-right: 82px;
+            font-size: 16px;
+            font-weight: 500;
+            color: $dark;
+        }
+    }
+}
