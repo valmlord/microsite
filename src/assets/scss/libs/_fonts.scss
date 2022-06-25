@@ -1,23 +1,14 @@
 @font-face {
-    font-family: "BrownTT";
-    src: url("../../fonts/BrownTT-Light.ttf") format("truetype");
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
+	font-family: 'BrownTT light'; 
+	src: url("../fonts/BrownTT-Light.ttf"); 
 }
 
 @font-face {
-    font-family: "BrownTT";
-    src: url("../../fonts/BrownTT-RegularAlt.ttf") format("truetype");
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
+	font-family: 'BrownTT regular'; 
+	src: url("../fonts/BrownTT-Regular.ttf"); 
 }
 
 @font-face {
-    font-family: "BrownTT";
-    src: url("../../fonts/BrownTT-Bold.ttf") format("truetype");
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+	font-family: 'BrownTT bold'; 
+	src: url("../fonts/BrownTT-Bold.ttf"); 
 }

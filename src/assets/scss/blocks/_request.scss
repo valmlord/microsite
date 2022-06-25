@@ -2,7 +2,7 @@
     background-color: $bg1;
 
     &-title {
-        font-family: "BrownTT", sans-serif;
+        font-family: "BrownTT light", sans-serif;
         font-size: 48px;
         line-height: 54px;
         font-weight: 300;
@@ -28,8 +28,8 @@
             flex-direction: column;
 
             &__heading {
-                font-family: "BrownTT", sans-serif;
-                font-weight: 500;
+                font-family: "BrownTT regular", sans-serif;
+                font-weight: 600;
                 font-size: 18px;
                 line-height: 24px;
                 color: $dark;
@@ -41,10 +41,11 @@
             }
 
             &__description {
+                font-family: "BrownTT regular", sans-serif;
                 margin-top: 24px;
                 font-size: 16px;
                 line-height: 24px;
-                font-weight: 500;
+                font-weight: 600;
                 color: $dark;
             }
 

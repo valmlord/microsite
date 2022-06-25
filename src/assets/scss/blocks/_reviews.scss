@@ -5,7 +5,7 @@
     padding-bottom: 86px;
 
     &-title {
-        font-family: "BrownTT", sans-serif;
+        font-family: "BrownTT light", sans-serif;
         font-size: 48px;
         line-height: 54px;
         font-weight: 300;
@@ -32,7 +32,7 @@
 
         &__name {
             margin-top: 28px;
-            font-family: "BrownTT", sans-serif;
+            font-family: "BrownTT bold", sans-serif;
             font-weight: bold;
             font-size: 24px;
             line-height: 32px;
@@ -40,21 +40,21 @@
         }
 
         &__position {
-            font-family: "BrownTT", sans-serif;
+            font-family: "BrownTT bold", sans-serif;
             font-weight: bold;
             font-size: 24px;
             color: dark;
         }
 
         &__company {
-            font-family: "BrownTT", sans-serif;
+            font-family: "BrownTT bold", sans-serif;
             font-weight: bold;
             font-size: 24px;
             color: dark;
         }
 
         &__text {
-            font-family: "BrownTT", sans-serif;
+            font-family: "BrownTT light", sans-serif;
             font-weight: 300;
             font-size: 16px;
             line-height: 24px;
