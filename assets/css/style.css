@@ -141,6 +141,7 @@ a {
   background: url("../img/promo/bg.png");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   color: #ffffff;
 }
 .promo-title {
@@ -477,6 +478,7 @@ a {
   right: 57px;
 }
 .modal-first__content-title {
+  font-family: "BrownTT light", sans-serif;
   padding-top: 32px;
   font-size: 24px;
   line-height: 32px;
@@ -498,6 +500,7 @@ a {
   padding-bottom: 32px;
 }
 .modal-first__content .form-data {
+  font-family: "BrownTT regular", sans-serif;
   border: none;
   border-bottom: 1px solid #5F6368;
   font-size: 16px;
@@ -512,6 +515,7 @@ a {
   padding-top: 0;
 }
 .modal-first__content .form-check {
+  font-family: "BrownTT regular", sans-serif;
   margin-top: 24px;
   font-size: 16px;
   line-height: 24px;
@@ -552,6 +556,8 @@ a {
   right: 57px;
 }
 .modal-second__content-title {
+  font-family: "BrownTT light", sans-serif;
+  font-weight: 300;
   padding-top: 32px;
   font-size: 24px;
   line-height: 32px;
@@ -588,6 +594,7 @@ a {
   height: 100px;
 }
 .modal-second__content .assets-item__descr {
+  font-family: "BrownTT regular", sans-serif;
   width: 395px;
   padding-left: 24px;
   padding-right: 82px;
