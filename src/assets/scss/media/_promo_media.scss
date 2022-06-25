@@ -1,0 +1,139 @@
+@media (max-width: 1439px) {
+    .promo {
+        padding-top: 80px;
+
+        &-title {
+            font-size: 52px;
+            line-height: 62px;
+        }
+
+        &-subtitle {
+            font-size: 36px;
+            line-height: 42px;
+        }
+
+        &-text {
+            font-size: 23px;
+            line-height: 30px;
+            padding-bottom: 70px;
+            margin-top: 50px;
+            max-width: 1174px;
+        }
+    }
+}
+
+@media (max-width: 1199px) {
+    .promo {
+
+        &-title {
+            font-size: 42px;
+            line-height: 52px;
+        }
+
+        &-subtitle {
+            font-size: 34px;
+            line-height: 40px;
+        }
+
+        &-text {
+            font-size: 22px;
+            line-height: 28px;
+            padding-bottom: 60px;
+            max-width: 1000px;
+        }
+    }
+}
+
+@media (max-width: 1079px) {
+    .promo {
+        padding-top: 60px;
+
+        &-title {
+            font-size: 32px;
+            line-height: 42px;
+            max-width: 500px;
+        }
+
+        &-subtitle {
+            font-size: 28px;
+            line-height: 32px;
+            max-width: 740px;
+        }
+
+        &-text {
+            font-size: 18px;
+            line-height: 22px;
+            padding-bottom: 40px;
+            max-width: 960px;
+        }
+
+        &-divider {
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .promo {
+        padding-top: 40px;
+
+        &-title {
+            font-size: 30px;
+            line-height: 36px;
+            width: auto;
+        }
+
+        &-subtitle {
+            font-size: 24px;
+            line-height: 32px;
+            width: auto;
+        }
+
+        &-text {
+            font-size: 16px;
+            line-height: 24px;
+            padding-bottom: 40px;
+            width: auto;
+            margin-top: 40px;
+        }
+    }
+}
+
+@media (max-width: 424px) {
+    .promo {
+        &-title {
+            font-size: 28px;
+            line-height: 32px;
+        }
+
+        &-subtitle {
+            font-size: 22px;
+            line-height: 28px;
+        }
+
+        &-text {
+            font-size: 16px;
+            line-height: 20px;
+        }
+    }
+}
+
+@media (max-width: 319px) {
+    .promo {
+        &-title {
+            font-size: 22px;
+            line-height: 28px;
+        }
+
+        &-subtitle {
+            font-size: 18px;
+            line-height: 24px;
+        }
+
+        &-text {
+            font-size: 14px;
+            line-height: 18px;
+
+        }
+    }
+}

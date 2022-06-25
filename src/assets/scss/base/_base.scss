@@ -11,14 +11,41 @@ a {
 
 .container {
     max-width: 1420px;
+    padding: 0 20px;
     margin: 0 auto;
 }
 
+@media (max-width: 1439px) {
+    .container {
+        padding: 0 40px;
+        margin: 0;
+    }
+}
+
+@media (max-width: 1199px) {
+    .container {
+        padding: 0 30px;
+        margin: 0;
+    }
+}
+
 .wrapper {
-    display: flex;
-    justify-content: center;
+display: block;
     margin: 0 130px;
     background-color: #ffffff;
     padding-top: 58px;
 }
+
+@media (max-width: 1439px) {
+    .wrapper {
+        margin: 0 60px;
+    }
+}
+
+@media (max-width: 767px) {
+    .wrapper {
+        margin: 0 30px;
+    }
+}
+
 

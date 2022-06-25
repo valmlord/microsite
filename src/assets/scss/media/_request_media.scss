@@ -1,0 +1,210 @@
+@media (max-width: 1439px) {
+    .request {
+        &-title {
+            font-size: 36px;
+            line-height: 42px;
+        }
+
+        .item {
+            padding-bottom: 80px;
+
+            &-info {
+                max-width: 50%;
+                &__heading {
+                    font-size: 18px;
+                    line-height: 26px;
+                }
+
+                &__description {
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+
+                &__list {
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+            }
+
+            &-mockup {
+                width: 40%;
+            }
+        }
+    }
+}
+
+@media (max-width: 1199px) {
+    .request {
+        &-title {
+            font-size: 34px;
+            line-height: 42px;
+        }
+
+        .item {
+            padding-bottom: 60px;
+            align-items: flex-start;
+
+            &-info {
+                max-width: 50%;
+
+                &__heading {
+                    font-size: 18px;
+                    line-height: 26px;
+                }
+
+                &__description {
+                    font-size: 16px;
+                    line-height: 24px;
+                    margin-top: 14px;
+                }
+
+                &__list {
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1079px) {
+    .request {
+        &-title {
+            font-size: 28px;
+            line-height: 34px;
+            padding: 50px 0 40px 0;
+        }
+
+        .item {
+            &-info {
+                max-width: 60%;
+            }
+
+            &-mockup {
+                width: 30%;
+            }
+
+        }
+    }
+}
+
+@media (max-width: 1023px) {
+    .request {
+        &-title {
+            padding: 50px 0 40px 0;
+        }
+
+        .item {
+            display: flex;
+            flex-direction: column-reverse;
+
+            &-info {
+                margin-top: 30px;
+                max-width: 100%;
+
+                &__heading {
+                    font-size: 18px;
+                    line-height: 26px;
+                }
+            }
+
+            &-mockup {
+                width: 50%;
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .request {
+        &-title {
+            font-size: 24px;
+            line-height: 32px;
+            padding: 40px 0 30px 0;
+            text-align: left;
+        }
+
+        .item {
+
+            &-info {
+
+                &__heading {
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+
+                &__description {
+                    font-size: 14px;
+                    line-height: 20px;
+                }
+
+                &__list {
+                    font-size: 14px;
+                    line-height: 20px;
+                    margin-top: 10px;
+                }
+            }
+
+        }
+    }
+}
+
+@media (max-width: 424px) {
+    .request {
+        &-title {
+            font-size: 22px;
+            line-height: 28px;
+        }
+
+        .item {
+            &-info {
+                &__heading {
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+
+                &__description {
+                    font-size: 14px;
+                    line-height: 20px;
+                }
+
+                &__list {
+                    font-size: 14px;
+                    line-height: 20px;
+                }
+            }
+
+            &-mockup {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media (max-width: 319px) {
+    .request {
+        &-title {
+            font-size: 18px;
+            line-height: 28px;
+        }
+
+        .item {
+            &-info {
+                &__heading {
+                    font-size: 14px;
+                    line-height: 22px;
+                }
+
+                &__description {
+                    font-size: 12px;
+                    line-height: 18px;
+                }
+
+                &__list {
+                    font-size: 12px;
+                    line-height: 18px;
+                }
+            }
+        }
+    }
+}

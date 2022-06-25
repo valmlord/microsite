@@ -69,7 +69,7 @@ const modals = () => {
 
     bindModal('.btn-request', '.modal-first', '.modal-first .modal-first__content-close');
     bindModal('.btn-next', '.modal-second', '.modal-second .modal-second__content-close');
-    showModalByTime('.modal-first', 60000);
+    //showModalByTime('.modal-first', 60000);
 };
 
 export default modals;
