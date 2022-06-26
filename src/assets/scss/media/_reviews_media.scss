@@ -1,0 +1,138 @@
+@media (max-width: 1439px) {
+    .reviews {
+        &-title {
+            font-size: 36px;
+            line-height: 42px;
+        }
+    }
+}
+
+
+@media (max-width: 1199px) {
+    .reviews {
+        &-title {
+            font-size: 34px;
+            line-height: 42px;
+        }
+        &-item {
+            max-width: none;
+            width: 30%;
+        }
+    }
+}
+
+@media (max-width: 1079px) {
+    .reviews {
+        &-title {
+            font-size: 28px;
+            line-height: 34px;
+            padding: 40px 0 30px 0;
+        }
+        &-item {
+            width: 32%;
+        }
+    }
+}
+
+@media (max-width: 1023px) {
+    .reviews {
+        padding-bottom: 0;
+        &-item {
+            margin-bottom: 30px;
+
+            &__icon {
+                width: 30px;
+                height: 30px;
+            }
+
+            &__name {
+                font-size: 16px;
+                line-height: 24px;
+                margin-top: 18px;
+            }
+
+            &__position {
+                font-size: 16px;
+                line-height: 24px;
+            }
+
+            &__company {
+                font-size: 16px;
+                line-height: 24px;
+            }
+
+            &__text {
+                font-size: 14px;
+                line-height: 22px;
+                margin-top: 18px;
+            }
+        }
+    }
+
+    @media (max-width: 767px) {
+        .reviews {
+            &-title {
+                font-size: 24px;
+                line-height: 32px;
+                text-align: left;
+                padding: 40px 0 30px 0;
+            }
+
+            &-items {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            &-item {
+                width: 100%;
+            }
+        }
+    }
+
+    @media (max-width: 424px) {
+        .reviews {
+            &-title {
+                font-size: 22px;
+                line-height: 28px;
+            }
+        }
+    }
+
+    @media (max-width: 319px) {
+        .reviews {
+            &-title {
+                font-size: 18px;
+                line-height: 28px;
+            }
+
+            &-item {
+                &__icon {
+                    width: 20px;
+                    height: 20px;
+                }
+
+                &__name {
+                    font-size: 14px;
+                    line-height: 22px;
+                }
+
+                &__position {
+                    font-size: 14px;
+                    line-height: 22px;
+                }
+
+                &__company {
+                    font-size: 14px;
+                    line-height: 22px;
+                }
+
+                &__text {
+                    font-size: 12px;
+                    line-height: 20px;
+                }
+            }
+        }
+    }
+}
